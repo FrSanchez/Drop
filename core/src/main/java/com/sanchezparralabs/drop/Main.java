@@ -80,7 +80,7 @@ public class Main implements ApplicationListener {
         float worldHeight = viewport.getWorldHeight();
         float bucketWidth = bucketSprite.getWidth();
         float bucketHeight = bucketSprite.getHeight();
-s
+
         bucketSprite.setX(MathUtils.clamp(bucketSprite.getX(), 0, worldWidth - bucketWidth));
 
         float delta = Gdx.graphics.getDeltaTime(); // retrieve the current delta
